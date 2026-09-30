@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Hello World!</title>
+    <title>A basic guide on Vim!</title>
     <script src='validate.js'></script>
 </head>
-<body>
-    <header>
-        <h1>Hello World!</h1>
-    </header>
     <main>
         <section>
-            <h2>About Me</h2>
-            <p>This is my first web page.</p>
+            <h1>what is vim?</h1>
+            <p>Vim is the keyboard based text editor for files</p>
         </section>
-    </main>
-    <footer>
-        <p>Made by me.</p>
-    </footer>
+	<h2>how to open vim </h2>
+	<ol>
+		<li>First,open launchpad and navigate to terminal.</li>
+		<li>Then, navigate to the file you want to open using <kbd> cd</kbd><li>
+				<li>Finally, type <kbd>vim</kbd> and then the file name</li>
+	<section>
+		<h2>How to close vim</h2>
+	<p> Closing vim seems difficult at first, however it is not nearly as challenging as it seems</p>
+	<ol>
+		<li>First, simply click escape to get out of whatever mode you were in before
+		<li>Next, type the <kbd>:</kbd> key
+		<li>Finally, type wq
+	</ol>
+	</section>
+
+        <section>
+	<h3>Some useful vim commands<h3>
+			<pre>
+			<ul>
+		<li>	Use <kbd>:wq</kbd> to exit vim and save.
+		<li>	Use <kbd>:q</kbd> to quit vim without saving.
+		<li>    If the computer responds with an error like <samp>E37: No write since last change<samp>    Use <kbd>:q!</kbd> to quit while bypassing potential error message
+		<li>    There are many other useful vim comannds, howver that is all I will be going over right now.
+			</pre>
+			</ul>
+	</section>
+
+</main>
+<footer>
+	By Ethan
+</footer> 
 </body>
-</html>
+<html>
