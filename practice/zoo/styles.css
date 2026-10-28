@@ -1,0 +1,10 @@
+body{
+	background-color:lemonChiffon;
+}
+table, tr, th, td{
+	border: 1px black solid;
+	border-collapse: collapse;
+}
+header{
+	background-color;red
+}
