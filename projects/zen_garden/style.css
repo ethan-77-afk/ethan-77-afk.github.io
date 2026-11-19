@@ -1,0 +1,28 @@
+/*
+  ITD110 Zen Garden Project
+  Your namea: Ethan Kier
+  Your design concept (one sentence):
+  I'm going to make the site as ugly as possible in the most fancy way.
+  All of your CSS goes in this file.
+*/
+
+
+.submenu {
+    display: none;
+}
+
+.menu-item:hover .submenu,
+.menu-item:focus-within .submenu {
+    display: block;
+}
+
+*{
+	font-family: Courier, monospace;
+	background-color: yellow;
+}
+p {
+	background-color:purple;
+	}
+a{
+	display: inline-block;
+	transition:
